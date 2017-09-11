@@ -4,9 +4,6 @@ var express=require('express'),
     numCPUs = require('os').cpus().length,
     server = null;
 
-
-
-
     if (cluster.isMaster) {
 
         for (var i = 0; i < numCPUs; i++) {
