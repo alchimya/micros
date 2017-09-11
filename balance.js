@@ -1,7 +1,6 @@
 var express = require('express'),
     router = express.Router()
 
-
 router.get('/', function (req, res,next) {
 
     console.log("YOU ARE LOGGED IN");
